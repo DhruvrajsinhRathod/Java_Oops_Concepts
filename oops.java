@@ -16,6 +16,16 @@ class Pen {
 
 }
 
+class Student {
+    String name;
+    int age;
+
+    public void infoPrint() {
+        System.out.println("The name of student is: " + name);
+        System.out.println("The age of student is: " + age);
+    }
+}
+
 public class oops {
     public static void main(String[] args) {
         Pen pen1 = new Pen();
@@ -26,12 +36,17 @@ public class oops {
         pen2.colour = "Green";
         pen2.type = "Bold";
 
-        pen1.write();
-        pen1.typePrint();
-        pen1.colourPrint();
+        // pen1.write();
+        // pen1.typePrint();
+        // pen1.colourPrint();
 
-        pen2.write();
-        pen2.typePrint();
-        pen2.colourPrint();
+        // pen2.write();
+        // pen2.typePrint();
+        // pen2.colourPrint();
+
+        Student s1 = new Student();
+        s1.age = 15;
+        s1.name = "Dhruvraj";
+        s1.infoPrint();
     }
 }
