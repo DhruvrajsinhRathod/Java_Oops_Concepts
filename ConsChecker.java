@@ -14,5 +14,6 @@ public class ConsChecker {
     public static void main(String[] args) {
         CheckPlease cp1 = new CheckPlease();
         cp1.name = "Dhruvraj";
+        cp1.tryCheckPlease();
     }
 }
