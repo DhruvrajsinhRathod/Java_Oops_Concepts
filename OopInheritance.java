@@ -1,3 +1,5 @@
+import bank.*;
+
 class Shape {
     String colour;
 }
@@ -13,5 +15,8 @@ public class OopInheritance {
         Square s1 = new Square();
         s1.colour = "RedSquare";
         s1.squarePrinter();
+
+        bank.Account ba = new bank.Account();
+        ba.customer1Printer();
     }
 }
